@@ -1,0 +1,39 @@
+{
+  "name": "Chameleon",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": "Stasiek Michalski <hellcp@opensuse.org>",
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "openSUSE-logo": "assets/openSUSE-logo.svg"
+  },
+  "color_schemes": {
+    "openSUSE Dark": {
+      "primary": "ffffff",
+      "secondary": "05121a",
+      "tertiary": "35b9ab",
+      "quaternary": "35b9ab",
+      "header_background": "081b27",
+      "header_primary": "ffffff",
+      "highlight": "a8e169",
+      "danger": "dc3545",
+      "success": "73ba25",
+      "love": "fa6c8d"
+    },
+    "openSUSE Light": {
+      "primary": "000000",
+      "secondary": "ffffff",
+      "tertiary": "35b9ab",
+      "quaternary": "35b9ab",
+      "header_background": "f6f6f6",
+      "header_primary": "222222",
+      "highlight": "ffc107",
+      "danger": "dc3545",
+      "success": "73ba25",
+      "love": "dc3545"
+    }
+  }
+}
