@@ -16,7 +16,7 @@ var observer = new MutationObserver(function(mutations, observer) {
       header.parentNode.insertBefore(megamenu, header.nextSibling);
     }
 
-    let icons = document.getElementsByClassName('d-header-icons');
+    let icons = document.getElementsByClassName('d-header-icons')[0];
     let icon = '<li id="megamenu-dropdown" class="header-dropdown-toggle megamenu-dropdown"><a aria-expanded="false" aria-haspopup="true" href="" data-auto-route="true" title="menu" aria-label="menu" id="toggle-megamenu" class="icon btn-flat"><svg></svg></a></li>'
 
     if (document.getElementById('megamenu-dropdown') === null) {
