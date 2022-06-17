@@ -6,7 +6,7 @@ var observer = new MutationObserver(function(mutations, observer) {
   let header = document.getElementById('ember7');
   let check = document.getElementById('megamenu');
   
-  if (header.parentNode != null && check.parentNode === null) {
+  if (header.parentNode != null && (check === null || check.parentNode === null)) {
 
     let megamenu = document.createElement('div');
     megamenu.id = 'megamenu'
