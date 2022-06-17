@@ -20,7 +20,7 @@ var observer = new MutationObserver(function(mutations, observer) {
     let icon = '<li id="megamenu-dropdown" class="header-dropdown-toggle megamenu-dropdown"><a aria-expanded="false" aria-haspopup="true" href="" data-auto-route="true" title="menu" aria-label="menu" id="toggle-megamenu" class="icon btn-flat"><svg></svg></a></li>'
 
     if (document.getElementById('megamenu-dropdown') === null) {
-      icons.appendChild(icon);
+      icons.innerHTML = icons.innerHTML + icon;
     }
     
     (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
