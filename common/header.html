@@ -3,7 +3,7 @@ MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
 
 var observer = new MutationObserver(function(mutations, observer) {
   
-  let header_wrap = document.getElementById('ember7');
+  let header_wrap = document.getElementsByClassName('d-header-wrap');
   let check = document.getElementById('megamenu');
   
   if ((header_wrap.length > 0 || header_wrap[0].parentNode != null) && (check === null || check.parentNode === null)) {
