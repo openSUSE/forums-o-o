@@ -10,7 +10,7 @@ body {
 
 .d-header {
   box-shadow: none;
-  background: #e9ecef;
+  background: var(--header_background);
   border-bottom: 2px solid #73ba25;
 }
 
