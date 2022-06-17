@@ -10,8 +10,8 @@ var observer = new MutationObserver(function(mutations, observer) {
 
     let megamenu = document.createElement('div');
     megamenu.id = 'megamenu'
-    megamenu.classList.append('megamenu')
-    megamenu.classList.append('collapse')
+    megamenu.classList.add('megamenu')
+    megamenu.classList.add('collapse')
     if (document.getElementById('megamenu') === null) {
       header.parentNode.insertBefore(megamenu, header.nextSibling);
     }
