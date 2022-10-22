@@ -15,10 +15,10 @@
       "quaternary": "173f4f",
       "header_background": "343a40",
       "header_primary": "ffffff",
-      "highlight": "1777a2",
+      "highlight": "bb9d43",
       "danger": "dc3545",
       "success": "73ba25",
-      "love": "fa6c8d"
+      "love": "fbc75d"
     },
     "openSUSE Light": {
       "primary": "000000",
@@ -27,10 +27,10 @@
       "quaternary": "173f4f",
       "header_background": "e9ecef",
       "header_primary": "191919",
-      "highlight": "89cfee",
+      "highlight": "bb9d43",
       "danger": "dc3545",
       "success": "73ba25",
-      "love": "dc3545"
+      "love": "fbc75d"
     }
   }
 }
